@@ -1,0 +1,227 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #080808;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #f1f2f4;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #ff6600;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+.connexion-section, .profile-section, .search-section {
+    text-align: center;
+    
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+/* Styles pour le menu hamburger */
+.hamburger-menu {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+
+.hamburger-menu .bar {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Styles pour le menu */
+nav {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav.show {
+    display: block;
+}
+
+.inscription-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+.inscription-section h2 {
+    text-align: center;
+    color: #ff6600;
+}
+
+.inscription-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inscription-section label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.inscription-section input,
+.inscription-section textarea,
+.inscription-section select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.inscription-section button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inscription-section button:hover {
+    background-color: #45a049;
+}
+.recherche-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.recherche-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.recherche-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.recherche-section label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.recherche-section input,
+.recherche-section select,
+.recherche-section button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.recherche-section button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.recherche-section button:hover {
+    background-color: #45a049;
+}
+/* Thème Clair */
+body.clair {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Thème Sombre */
+body.sombre {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Thème Coloré */
+body.coloré {
+    background-color: #ffcc00;
+    color: #000000;
+}

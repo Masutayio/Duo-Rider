@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duo Rider - Profil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mon Profil</h1>
+
+        <!-- Menu Hamburger -->
+        <div class="hamburger-menu" id="hamburgerMenu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="connexion.html">Connexion</a></li>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="recherche.html">Recherche</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profil-section">
+            <h2>Personnalise ton Profil</h2>
+            <form id="profileForm">
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="bio">Biographie :</label>
+                <textarea id="bio" name="bio" placeholder="Parle-nous de toi..."></textarea>
+
+                <label for="photo">Photo de profil :</label>
+<input type="file" id="photo" name="photo" accept="image/*">
+<img id="photoPreview" src="" alt="Aperçu de la photo de profil" style="display: none; width: 150px; height: auto; margin-top: 10px;">
+
+
+                <label for="theme">Choix du Thème :</label>
+                <select id="theme" name="theme">
+                    <option value="clair">Clair</option>
+                    <option value="sombre">Sombre</option>
+                    <option value="coloré">Coloré</option>
+                </select>
+
+                <button type="submit">Sauvegarder les Changements</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
